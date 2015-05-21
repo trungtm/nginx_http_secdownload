@@ -4,9 +4,9 @@ http://redmine.lighttpd.net/projects/1/wiki/Docs_ModSecDownload
 
 ##Lighttpd config:
 ```
-secdownload.secret        = secret
-secdownload.document-root = /var/www/html/secure
-secdownload.uri-prefix    = /dl/
+secdownload.secret        = "secret"
+secdownload.document-root = "/var/www/html/secure"
+secdownload.uri-prefix    = "/dl/"
 secdownload.timeout       = 3600
 ```
 
